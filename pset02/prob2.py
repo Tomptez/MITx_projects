@@ -1,10 +1,9 @@
-#balance - the outstanding balance on the credit card
-#annualInterestRate - annual interest rate as a decimal
-#monthlyPaymentRate -  minimum monthly payment rate as a decimal
+# balance - the outstanding balance on the credit card
+# annualInterestRate - annual interest rate as a decimal
 
-#example:
+# Example:
 balance = 3329; annualInterestRate = 0.2
-#should result in 310
+# should result in 310
 
 def correct(balance, InRa, PayRate, mon):
     orig_balance = balance

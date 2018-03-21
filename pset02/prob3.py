@@ -1,9 +1,9 @@
-#balance - the outstanding balance on the credit card
-#annualInterestRate - annual interest rate as a decimal
+# balance - the outstanding balance on the credit card
+# annualInterestRate - annual interest rate as a decimal
 
-#example:
-balance = 3329; annualInterestRate = 0.2
-#should result in about 310
+# example:
+balance = 320000; annualInterestRate = 0.2
+# expect "Lowest Payment: 29157.1"
 
 def calc_rate(balance, InRa, min, max, mon = 12):
     orig_balance = balance
