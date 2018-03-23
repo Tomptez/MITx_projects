@@ -274,7 +274,6 @@ def playGame(wordList):
     2) When done playing the hand, repeat from step 1    
     """
     cnt_games = 0
-    n = 7
     inpt = ""
     hand = dealHand(HAND_SIZE)
     while True:
